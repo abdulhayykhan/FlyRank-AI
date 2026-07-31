@@ -4,7 +4,7 @@ This directory contains the executed deliverable for **Week 1 Assignment 5: What
 
 ## Deliverables
 
-- **[FL03_What_Are_You_Proving.md](FL03_What_Are_You_Proving.md)**
+- **[What_Are_You_Proving.md](What_Are_You_Proving.md)**
   - **One-Paragraph Proof Statement**: Hyper-specific claim + specific person + single action.
   - **The Three Plain Answers**: Clear definitions of Claim, Target Person, and Conversion Action.
   - **AI Thinking-Partner Interview**: Dialogue transcript refining vague claims into narrow, empirical statements.
