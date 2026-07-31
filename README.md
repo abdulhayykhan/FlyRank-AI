@@ -37,7 +37,8 @@ FlyRank-AI/
 ├── week 1/
 │   ├── 1. Run the Starter Notebooks/    # Week 1 Assignment 1 (01 & 02 Notebooks + Reports)
 │   ├── 2. Research Question and Lane/   # Week 1 Assignment 2 (w01_research_question.ipynb)
-│   └── 3. AI Workflow Audit & Tool Setup/ # Week 1 Assignment 3 / FL-01 (Workflow Audit Report)
+│   ├── 3. AI Workflow Audit & Tool Setup/ # Week 1 Assignment 3 / FL-01 (Workflow Audit Report)
+│   └── 4. Draw the Path Portfolio Sitemap/ # Week 1 Assignment 4 / FL-02 (Portfolio Sitemap & AI Tutor)
 ├── week 2/
 │   ├── 1. Frame Your Lane as ML Task/   # Week 2 Assignment 1 (w02_ml_task_framing.ipynb)
 │   └── 2. VIDEO ML Intro Workshop/       # Week 2 Assignment 2 (ML Systems Summary & Learnings)
