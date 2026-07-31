@@ -1,6 +1,6 @@
-# Week 2 — Assignment 4: The Prompt Ladder (FL-05)
+# Week 2 — Assignment 4: The Prompt Ladder
 
-This directory contains the executed deliverable for **Week 2 Assignment 4: The Prompt Ladder (FL-05)** in the General AI Fluency Track.
+This directory contains the executed deliverable for **Week 2 Assignment 4: The Prompt Ladder** in the General AI Fluency Track.
 
 ## Deliverables
 

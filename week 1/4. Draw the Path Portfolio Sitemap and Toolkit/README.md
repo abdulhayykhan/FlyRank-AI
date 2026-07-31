@@ -1,6 +1,6 @@
-# Week 1 — Assignment 4: Draw the Path (FL-02)
+# Week 1 — Assignment 4: Draw the Path
 
-This directory contains the executed deliverable for **Week 1 Assignment 4: Draw the Path: Portfolio Sitemap + Toolkit (FL-02)** in the General AI Fluency Track.
+This directory contains the executed deliverable for **Week 1 Assignment 4: Draw the Path: Portfolio Sitemap + Toolkit** in the General AI Fluency Track.
 
 ## Deliverables
 

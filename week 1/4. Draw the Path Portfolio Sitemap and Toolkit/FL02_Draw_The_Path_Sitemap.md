@@ -73,7 +73,10 @@ To avoid portfolio bloat, every page earns its place strictly against the proof 
 | Page / Section | Core Purpose | Earns Its Place Because... |
 |---|---|---|
 | **1. Hero Section** | Immediate Claim | States the exact quantitative impact (0.740 Precision@50) in 5 seconds. |
-| **2. Featured Capstone** | Empirical Proof | Provides full end-to-end evidence (Data Contract $ightarrow$ Split $ightarrow$ Benchmarks $ightarrow$ Playbook). |
+| **2. Featured Capstone** | Empirical Proof | Provides full end-to-end evidence (Data Contract $
+ightarrow$ Split $
+ightarrow$ Benchmarks $
+ightarrow$ Playbook). |
 | **3. About & Toolkit** | Author Credibility | Establishes background as a 3rd Year AI Student at DUET with production ML skills. |
 | **4. Action / Contact** | Conversion | Eliminates friction for hiring managers to initiate contact directly. |
 

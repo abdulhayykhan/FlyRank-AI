@@ -1,6 +1,6 @@
-# Week 1 — Assignment 5: What Are You Proving? (FL-03)
+# Week 1 — Assignment 5: What Are You Proving?
 
-This directory contains the executed deliverable for **Week 1 Assignment 5: What Are You Proving? (FL-03)** in the General AI Fluency Track.
+This directory contains the executed deliverable for **Week 1 Assignment 5: What Are You Proving?** in the General AI Fluency Track.
 
 ## Deliverables
 

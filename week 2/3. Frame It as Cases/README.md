@@ -1,6 +1,6 @@
-# Week 2 — Assignment 3: Frame It as Cases (FL-04)
+# Week 2 — Assignment 3: Frame It as Cases
 
-This directory contains the executed deliverable for **Week 2 Assignment 3: Frame It as Cases: Work That Speaks for Itself (FL-04)** in the General AI Fluency Track.
+This directory contains the executed deliverable for **Week 2 Assignment 3: Frame It as Cases: Work That Speaks for Itself** in the General AI Fluency Track.
 
 ## Deliverables
 
