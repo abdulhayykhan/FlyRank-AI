@@ -49,7 +49,8 @@ FlyRank-AI/
 ├── week 3/
 │   ├── 1. Search Intelligence Contract/ # Week 3 Assignment 1 (w03_data_contract.ipynb)
 │   ├── 2. Decide Once: Identity Kit/    # Week 3 Assignment 2 (Typography, Hex Palette & Logo Kit)
-│   └── 3. Kill Your Darlings: Images/   # Week 3 Assignment 3 (Image Inventory & Rejection Audit)
+│   ├── 3. Kill Your Darlings: Images/   # Week 3 Assignment 3 (Image Inventory & Rejection Audit)
+│   └── 4. Map Content & CTAs/           # Week 3 Assignment 4 (One-Line Claim & CTA Conversion Ladder)
 ├── week 4/
 │   └── 1. Baseline Action Score & Audit/ # Week 4 Assignment 1 (w04_baseline_score.ipynb)
 ├── week 5/
