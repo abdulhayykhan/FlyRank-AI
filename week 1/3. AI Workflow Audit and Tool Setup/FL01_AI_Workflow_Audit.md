@@ -2,7 +2,7 @@
 
 **Course Track:** General AI Fluency Track (Week 1 — Assignment 3)  
 **Author:** Abdul Hayy Khan  
-**Institution / Role:** Computer Systems Engineering Student & ML Engineering Intern (DUET / FlyRank AI)  
+**Institution / Role:** 3rd Year Artificial Intelligence Student & ML Engineering Intern (DUET / FlyRank AI)  
 **Date:** July 2026  
 
 ---
@@ -15,7 +15,7 @@ This document presents the **AI Workflow Audit and Tool Setup (FL-01)**. Buildin
 
 ## 1. Weekly AI Workflow Audit (12 Recurring Tasks)
 
-Every task from my weekly workflow as a Computer Systems Engineering student and ML Intern is classified into one of four collaboration buckets:
+Every task from my weekly workflow as a 3rd Year AI student and ML Intern is classified into one of four collaboration buckets:
 - **Just Me**: Tasks requiring human accountability, ethics, empathy, or core personal vision.
 - **Delegate to AI with Review**: Tasks where AI drafts initial assets, followed by human review and refinement.
 - **Collaborate with AI**: Interactive, multi-turn brainstorming, debugging, or analytical synthesis.
@@ -62,7 +62,7 @@ Created a dedicated Claude Project for FlyRank AI Internship workflows with cust
 === CLAUDE PROJECT CUSTOM INSTRUCTIONS ===
 
 Role & Identity:
-You are assisting Abdul Hayy Khan, a Senior Computer Systems Engineering Student at DUET and Machine Learning Engineering Intern at FlyRank AI.
+You are assisting Abdul Hayy Khan, a Senior 3rd Year Artificial Intelligence Student at DUET and Machine Learning Engineering Intern at FlyRank AI.
 
 Communication Style & Tone:
 - Tone: Technical, direct, concise, and rigorous.
