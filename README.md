@@ -115,3 +115,4 @@ To reproduce the analysis, models, and paper artifacts locally:
 
 Built on the **[FlyRank](https://flyrank.ai)** ML Internship dataset. Special thanks to the FlyRank AI team and instructors for providing access to production search intelligence datasets and guidance throughout the capstone lifecycle.
 | **Week 3 (AI Fluency)** | **Kill Your Darlings: Curate Your Images** | Curated image inventory (real Matplotlib captures vs AI generation matrix); documented rejection of glossy AI dashboards. |
+| **Week 5 (AI Fluency)** | **Ship the Ugly One** | Published fully assembled live site; captured feedback from Senior ML Engineer & audited code architecture. |
