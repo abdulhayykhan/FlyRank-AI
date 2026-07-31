@@ -53,7 +53,8 @@ FlyRank-AI/
 │   └── 4. Map Content & CTAs/           # Week 3 Assignment 4 (One-Line Claim & CTA Conversion Ladder)
 ├── week 4/
 │   ├── 1. Baseline Action Score & Audit/ # Week 4 Assignment 1 (w04_baseline_score.ipynb)
-│   └── 2. Empty but Live: Blank Page/   # Week 4 Assignment 2 (GitHub Pages Deployment & Verification)
+│   ├── 2. Empty but Live: Blank Page/   # Week 4 Assignment 2 (GitHub Pages Deployment & Verification)
+│   └── 3. Three Roads: Choose Stack/    # Week 4 Assignment 3 (Stack Trade-off Audit & Rationale)
 ├── week 5/
 │   └── 1. Capstone Modeling Lane/       # Week 5 Assignment 1 (w05_model.ipynb)
 ├── week 6/
