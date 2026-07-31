@@ -47,7 +47,8 @@ FlyRank-AI/
 │   ├── 4. The Prompt Ladder/             # Week 2 Assignment 4 (6-Step Prompt Engineering Audit)
 │   └── 5. Prompting Fundamentals v2/     # Week 2 Assignment 5 / FL-02 (5-Technique Prompting Audit)
 ├── week 3/
-│   └── 1. Search Intelligence Contract/ # Week 3 Assignment 1 (w03_data_contract.ipynb)
+│   ├── 1. Search Intelligence Contract/ # Week 3 Assignment 1 (w03_data_contract.ipynb)
+│   └── 2. Decide Once: Identity Kit/    # Week 3 Assignment 2 (Typography, Hex Palette & Logo Kit)
 ├── week 4/
 │   └── 1. Baseline Action Score & Audit/ # Week 4 Assignment 1 (w04_baseline_score.ipynb)
 ├── week 5/
