@@ -43,7 +43,8 @@ FlyRank-AI/
 ├── week 2/
 │   ├── 1. Frame Your Lane as ML Task/   # Week 2 Assignment 1 (w02_ml_task_framing.ipynb)
 │   ├── 2. VIDEO ML Intro Workshop/       # Week 2 Assignment 2 (ML Systems Summary & Learnings)
-│   └── 3. Frame It as Cases/             # Week 2 Assignment 3 / FL-04 (Voice Card & 3 Beats Case)
+│   ├── 3. Frame It as Cases/             # Week 2 Assignment 3 / FL-04 (Voice Card & 3 Beats Case)
+│   └── 4. The Prompt Ladder/             # Week 2 Assignment 4 / FL-05 (6-Step Prompt Engineering Audit)
 ├── week 3/
 │   └── 1. Search Intelligence Contract/ # Week 3 Assignment 1 (w03_data_contract.ipynb)
 ├── week 4/
