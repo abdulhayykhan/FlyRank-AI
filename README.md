@@ -48,7 +48,8 @@ FlyRank-AI/
 │   └── 5. Prompting Fundamentals v2/     # Week 2 Assignment 5 / FL-02 (5-Technique Prompting Audit)
 ├── week 3/
 │   ├── 1. Search Intelligence Contract/ # Week 3 Assignment 1 (w03_data_contract.ipynb)
-│   └── 2. Decide Once: Identity Kit/    # Week 3 Assignment 2 (Typography, Hex Palette & Logo Kit)
+│   ├── 2. Decide Once: Identity Kit/    # Week 3 Assignment 2 (Typography, Hex Palette & Logo Kit)
+│   └── 3. Kill Your Darlings: Images/   # Week 3 Assignment 3 (Image Inventory & Rejection Audit)
 ├── week 4/
 │   └── 1. Baseline Action Score & Audit/ # Week 4 Assignment 1 (w04_baseline_score.ipynb)
 ├── week 5/
@@ -108,3 +109,4 @@ To reproduce the analysis, models, and paper artifacts locally:
 ## 🤝 Acknowledgments & Data Credit
 
 Built on the **[FlyRank](https://flyrank.ai)** ML Internship dataset. Special thanks to the FlyRank AI team and instructors for providing access to production search intelligence datasets and guidance throughout the capstone lifecycle.
+| **Week 3 (AI Fluency)** | **Kill Your Darlings: Curate Your Images** | Curated image inventory (real Matplotlib captures vs AI generation matrix); documented rejection of glossy AI dashboards. |
