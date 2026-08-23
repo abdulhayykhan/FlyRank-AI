@@ -10,7 +10,7 @@
 
 ## Executive Overview
 
-This document presents **Personal Website Live on the FlyRank Domain (PF-04)**. A personal website is the one professional profile no platform can alter or take away. Shipping a website on a free production host (Netlify / GitHub Pages) teaches foundational web infrastructure, HTTPS security, and DNS resolution principles that benefit every engineering track. This deliverable documents our deployed live site URL, provides a plain-English DNS walkthrough, audits every deployed file, and prepares our portfolio space for the official FlyRank completion badge.
+This document presents **Personal Website Live on the FlyRank Domain (PF-04)**. A personal website is the one professional profile no platform can alter or take away. Shipping a website on a free production host (Vercel / Netlify / GitHub Pages) teaches foundational web infrastructure, HTTPS security, and DNS resolution principles that benefit every engineering track. This deliverable documents our deployed live site URL, provides a plain-English DNS walkthrough, audits every deployed file, and prepares our portfolio space for the official FlyRank completion badge.
 
 ---
 
@@ -18,7 +18,7 @@ This document presents **Personal Website Live on the FlyRank Domain (PF-04)**. 
 
 The personal portfolio website is deployed over encrypted HTTPS and configured with a clean, professional site name:
 
-- 🌐 **Primary Netlify Production URL**: [https://abdulhayykhan.netlify.app](https://abdulhayykhan.netlify.app)
+- 🌐 **Primary Vercel / Netlify Production URL**: [https://abdulhayykhan-portfolio.vercel.app](https://abdulhayykhan-portfolio.vercel.app)
 - 🌐 **GitHub Pages Mirror URL**: [https://abdulhayykhan.github.io/FlyRank-AI/](https://abdulhayykhan.github.io/FlyRank-AI/)
 - 📦 **GitHub Source Repository**: [https://github.com/abdulhayykhan/FlyRank-AI](https://github.com/abdulhayykhan/FlyRank-AI)
 - 📄 **Submission URL File**: `submission/paper_url.txt`
@@ -55,7 +55,7 @@ Understanding how the internet routes user requests to your host's web server is
 |  [ 3. Root Nameserver (.) ]        ---> Points to TLD Nameserver (.app / .com).        |
 |         |                                                                             |
 |         v                                                                             |
-|  [ 4. TLD Nameserver (.app) ]       ---> Points to Netlify Authoritative Server.       |
+|  [ 4. TLD Nameserver (.app) ]       ---> Points to Vercel / Netlify Authoritative Server.       |
 |         |                                                                             |
 |         v                                                                             |
 |  [ 5. Authoritative Nameserver ]    ---> Looks up CNAME/A record -> Returns IP: 104.198.14.52 |
@@ -75,12 +75,14 @@ When someone types `abdulhayykhan.netlify.app` into their browser, five steps ha
 1. **Local Cache Check**: The browser and operating system check if they already know the IP address from a recent visit. If found, it opens immediately.
 2. **Recursive Resolver Query**: If uncached, the request goes to a **Recursive Resolver** (operated by your ISP or services like Cloudflare `1.1.1.1` or Google `8.8.8.8`). The resolver acts like a librarian searching for an answer.
 3. **Root Nameserver Lookup**: The resolver asks the **Root Nameserver** (`.`), which doesn’t know the exact IP, but directs the resolver to the Top-Level Domain (TLD) server for `.app`.
-4. **TLD Nameserver Lookup**: The **.app TLD Nameserver** directs the resolver to **Netlify’s Authoritative Nameserver** (`dns1.p01.nsone.net`).
-5. **Authoritative Response & A/CNAME Records**: Netlify’s Authoritative Nameserver checks its zone records and returns the exact IP address (`104.198.14.52`) back to your browser.
+4. **TLD Nameserver Lookup**: The **.app TLD Nameserver** directs the resolver to **Vercel / Netlify’s Authoritative Nameserver** (`dns1.p01.nsone.net`).
+5. **Authoritative Response & A/CNAME Records**: Vercel / Netlify’s Authoritative Nameserver checks its zone records and returns the exact IP address (`104.198.14.52`) back to your browser.
 
 ### 3. What is a CNAME Record vs. an A Record?
-- **A Record (Address Record)**: Maps a domain directly to a fixed numerical IP address (e.g., `myportfolio.com` $ightarrow$ `104.198.14.52`).
-- **CNAME Record (Canonical Name Record)**: Acts as an **alias** pointing one domain name to another domain name (e.g., `www.abdulhayykhan.com` $ightarrow$ `abdulhayykhan.netlify.app`). CNAME records are crucial for cloud hosts like Netlify and GitHub Pages because the host can update backend IP addresses dynamically without requiring users to manually reconfigure DNS.
+- **A Record (Address Record)**: Maps a domain directly to a fixed numerical IP address (e.g., `myportfolio.com` $
+ightarrow$ `104.198.14.52`).
+- **CNAME Record (Canonical Name Record)**: Acts as an **alias** pointing one domain name to another domain name (e.g., `www.abdulhayykhan.com` $
+ightarrow$ `abdulhayykhan.netlify.app`). CNAME records are crucial for cloud hosts like Vercel / Netlify and GitHub Pages because the host can update backend IP addresses dynamically without requiring users to manually reconfigure DNS.
 
 ### 4. Automatic HTTPS & SSL Certificates
 Once the IP address is resolved, the browser initiates a secure TCP connection over **Port 443**. Host platforms automatically issue free **TLS/SSL Certificates** (via Let's Encrypt). The browser and server exchange cryptographic keys during the **TLS Handshake**, encrypting all data in transit and displaying the secure green padlock icon (`https://`).
@@ -98,7 +100,7 @@ Every file deployed in the web directory serves a specific structural or styling
 | `docs/assets/calculator.js` | Client-side Vanilla JS execution script running the logistic decay probability math engine. |
 | `docs/figures/site_icon.png` | 512x512 rounded brand emblem used for site branding and social share previews. |
 | `docs/favicon.ico` | Browser tab icon for professional web finishing. |
-| `docs/_redirects` | Netlify routing rule file (`/* /index.html 200`) ensuring clean single-page app navigation. |
+| `docs/_redirects` | Vercel / Netlify routing rule file (`/* /index.html 200`) ensuring clean single-page app navigation. |
 
 ---
 
@@ -120,7 +122,7 @@ A dedicated placeholder section has been reserved on the live site footer for th
 
 ## 5. Verification Checklist (Pass / Revise Self-Audit)
 
-- [x] **Live HTTPS URL on clean domain**: Active at `https://abdulhayykhan.netlify.app` and `https://abdulhayykhan.github.io/FlyRank-AI/`.
+- [x] **Live HTTPS URL on clean domain**: Active at `https://abdulhayykhan-portfolio.vercel.app` and `https://abdulhayykhan.github.io/FlyRank-AI/`.
 - [x] **Positioning & profile links active**: Working links to LinkedIn, GitHub, CV, and booking calendar.
 - [x] **DNS walkthrough technically accurate**: Plain-English explanation of resolvers, nameservers, CNAME records, and HTTPS.
 - [x] **Deployed files explainable**: 100% audit of HTML, CSS, JS, and configuration files.
