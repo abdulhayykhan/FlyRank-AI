@@ -50,7 +50,8 @@ FlyRank-AI/
 │   ├── 1. Search Intelligence Contract/ # Week 3 Assignment 1 (w03_data_contract.ipynb)
 │   ├── 2. Decide Once: Identity Kit/    # Week 3 Assignment 2 (Typography, Hex Palette & Logo Kit)
 │   ├── 3. Kill Your Darlings: Images/   # Week 3 Assignment 3 (Image Inventory & Rejection Audit)
-│   └── 4. Map Content & CTAs/           # Week 3 Assignment 4 (One-Line Claim & CTA Conversion Ladder)
+│   ├── 4. Map Content & CTAs/           # Week 3 Assignment 4 (One-Line Claim & CTA Conversion Ladder)
+│   └── 5. Consistency Not Talent/      # Week 3 Assignment 5 (Framing Principle, Visual Tokens & AI Judgment)
 ├── week 4/
 │   ├── 1. Baseline Action Score & Audit/ # Week 4 Assignment 1 (w04_baseline_score.ipynb)
 │   ├── 2. Empty but Live: Blank Page/   # Week 4 Assignment 2 (GitHub Pages Deployment & Verification)
@@ -118,3 +119,4 @@ Built on the **[FlyRank](https://flyrank.ai)** ML Internship dataset. Special th
 | **Week 5 (AI Fluency)** | **Ship the Ugly One** | Published fully assembled live site; captured feedback from Senior ML Engineer & audited code architecture. |
 | **Week 5 (FL-06)** | **Design Your Personal Agent** | Authored agent spec for FlyRank Search Scout Agent; defined tool access plan, 5 pre-build evals & guardrails. |
 | **Week 5 (FL-07)** | **Build the Agent** | Implemented MVP FlyRank Search Scout Agent with 5 live Python MCP tools; recorded build log & trace log. |
+| **Week 3 (AI Fluency)** | **Consistency, Not Talent (and Frame, Not Upstage)** | Documented portfolio framing rule; locked visual tokens & audited AI image curation discernment. |
