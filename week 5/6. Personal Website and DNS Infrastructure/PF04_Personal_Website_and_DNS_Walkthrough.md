@@ -30,7 +30,7 @@ The personal portfolio website is deployed over encrypted HTTPS and configured w
 |---|---|---|
 | 💼 **LinkedIn Profile** | `https://www.linkedin.com/in/abdulhayykhan` | ✅ Active & Linked |
 | 💻 **GitHub Profile** | `https://github.com/abdulhayykhan` | ✅ Active & Linked |
-| 📄 **Curriculum Vitae (CV)** | `https://abdulhayykhan-portfolio.vercel.app/Abdul_Hayy_Khan_Resume.pdf` | ✅ Active & Downloadable |
+| 📄 **Curriculum Vitae (CV)** | `https://abdulhayykhan.github.io/FlyRank-AI/assets/Abdul_Hayy_Khan_Resume.pdf` | ✅ Active & Downloadable |
 | 📅 **Technical Interview Booking** | `https://cal.com/abdulhayykhan/15min` | ✅ Active & Functional |
 | 🔬 **Search Capstone Paper** | `https://abdulhayykhan.github.io/FlyRank-AI/` | ✅ Live Deployed Paper |
 
@@ -80,8 +80,10 @@ When someone types `abdulhayykhan-portfolio.vercel.app` into their browser, five
 5. **Authoritative Response & A/CNAME Records**: Vercel’s Authoritative Nameserver checks its zone records and returns the exact Edge IP address back to your browser.
 
 ### 3. What is a CNAME Record vs. an A Record?
-- **A Record (Address Record)**: Maps a domain directly to a fixed numerical IP address (e.g., `myportfolio.com` $ightarrow$ `76.76.21.21`).
-- **CNAME Record (Canonical Name Record)**: Acts as an **alias** pointing one domain name to another domain name (e.g., `www.abdulhayykhan.com` $ightarrow$ `cname.vercel-dns.com`). CNAME records are crucial for cloud hosts like Vercel, Netlify, and GitHub Pages because the host can update backend IP addresses dynamically without requiring users to manually reconfigure DNS.
+- **A Record (Address Record)**: Maps a domain directly to a fixed numerical IP address (e.g., `myportfolio.com` $
+ightarrow$ `76.76.21.21`).
+- **CNAME Record (Canonical Name Record)**: Acts as an **alias** pointing one domain name to another domain name (e.g., `www.abdulhayykhan.com` $
+ightarrow$ `cname.vercel-dns.com`). CNAME records are crucial for cloud hosts like Vercel, Netlify, and GitHub Pages because the host can update backend IP addresses dynamically without requiring users to manually reconfigure DNS.
 
 ### 4. Automatic HTTPS & SSL Certificates
 Once the IP address is resolved, the browser initiates a secure TCP connection over **Port 443**. Host platforms automatically issue free **TLS/SSL Certificates** (via Let's Encrypt / Vercel Edge SSL). The browser and server exchange cryptographic keys during the **TLS Handshake**, encrypting all data in transit and displaying the secure green padlock icon (`https://`).
@@ -122,7 +124,7 @@ A dedicated placeholder section has been reserved on the live site footer for th
 ## 5. Verification Checklist (Pass / Revise Self-Audit)
 
 - [x] **Live HTTPS URL on clean domain**: Active at `https://abdulhayykhan-portfolio.vercel.app`.
-- [x] **Resume PDF active**: Direct download working at `https://abdulhayykhan-portfolio.vercel.app/Abdul_Hayy_Khan_Resume.pdf`.
+- [x] **Resume PDF active**: Direct download working at `https://abdulhayykhan.github.io/FlyRank-AI/assets/Abdul_Hayy_Khan_Resume.pdf`.
 - [x] **Positioning & profile links active**: Working links to LinkedIn, GitHub, CV, and booking calendar.
 - [x] **DNS walkthrough technically accurate**: Plain-English explanation of resolvers, nameservers, A/CNAME records, and HTTPS.
 - [x] **Deployed files explainable**: 100% audit of Next.js page components, styles, and public assets.
