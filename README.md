@@ -121,3 +121,4 @@ Built on the **[FlyRank](https://flyrank.ai)** ML Internship dataset. Special th
 | **Week 5 (FL-07)** | **Build the Agent** | Implemented MVP FlyRank Search Scout Agent with 5 live Python MCP tools; recorded build log & trace log. |
 | **Week 3 (AI Fluency)** | **Consistency, Not Talent (and Frame, Not Upstage)** | Documented portfolio framing rule; locked visual tokens & audited AI image curation discernment. |
 | **Week 5 (AI Fluency)** | **Explain It Like You Built It** | Plain-words explanation of client-side Priority Calculator engine (sliders, sigmoid math, DOM updates). |
+| **Week 5 (PF-04)** | **Personal Website Live on FlyRank Domain** | Published HTTPS site on Netlify/GitHub; authored plain-English DNS resolution walkthrough. |
