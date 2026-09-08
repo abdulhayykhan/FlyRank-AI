@@ -29,7 +29,7 @@ The personal portfolio website is deployed over encrypted HTTPS and configured w
 |---|---|---|
 | 💼 **LinkedIn Profile** | `https://www.linkedin.com/in/abdulhayykhan` | ✅ Active & Linked |
 | 💻 **GitHub Profile** | `https://github.com/abdulhayykhan` | ✅ Active & Linked |
-| 📄 **Curriculum Vitae (CV)** | `https://abdulhayykhan.github.io/FlyRank-AI/assets/cv.pdf` | ✅ Active & Downloadable |
+| 📄 **Curriculum Vitae (CV)** | `https://abdulhayykhan.github.io/FlyRank-AI/assets/Abdul_Hayy_Khan_Resume.pdf` | ✅ Active & Downloadable |
 | 📅 **Technical Interview Booking** | `https://cal.com/abdulhayykhan/15min` | ✅ Active & Functional |
 | 🔬 **Search Capstone Paper** | `https://abdulhayykhan.github.io/FlyRank-AI/` | ✅ Live Deployed Paper |
 
@@ -79,8 +79,10 @@ When someone types `abdulhayykhan.netlify.app` into their browser, five steps ha
 5. **Authoritative Response & A/CNAME Records**: Netlify’s Authoritative Nameserver checks its zone records and returns the exact IP address (`104.198.14.52`) back to your browser.
 
 ### 3. What is a CNAME Record vs. an A Record?
-- **A Record (Address Record)**: Maps a domain directly to a fixed numerical IP address (e.g., `myportfolio.com` $ightarrow$ `104.198.14.52`).
-- **CNAME Record (Canonical Name Record)**: Acts as an **alias** pointing one domain name to another domain name (e.g., `www.abdulhayykhan.com` $ightarrow$ `abdulhayykhan.netlify.app`). CNAME records are crucial for cloud hosts like Netlify and GitHub Pages because the host can update backend IP addresses dynamically without requiring users to manually reconfigure DNS.
+- **A Record (Address Record)**: Maps a domain directly to a fixed numerical IP address (e.g., `myportfolio.com` $
+ightarrow$ `104.198.14.52`).
+- **CNAME Record (Canonical Name Record)**: Acts as an **alias** pointing one domain name to another domain name (e.g., `www.abdulhayykhan.com` $
+ightarrow$ `abdulhayykhan.netlify.app`). CNAME records are crucial for cloud hosts like Netlify and GitHub Pages because the host can update backend IP addresses dynamically without requiring users to manually reconfigure DNS.
 
 ### 4. Automatic HTTPS & SSL Certificates
 Once the IP address is resolved, the browser initiates a secure TCP connection over **Port 443**. Host platforms automatically issue free **TLS/SSL Certificates** (via Let's Encrypt). The browser and server exchange cryptographic keys during the **TLS Handshake**, encrypting all data in transit and displaying the secure green padlock icon (`https://`).
