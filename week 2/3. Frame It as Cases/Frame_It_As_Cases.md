@@ -1,6 +1,6 @@
 # Frame It as Cases: Work That Speaks for Itself
 
-**Course Track:** General AI Fluency Track (Week 2 — Assignment 3)  
+**Course Track:** Machine Learning Engineering Track (Week 2 — Assignment 3)  
 **Author:** Abdul Hayy Khan  
 **Institution / Role:** 3rd Year Artificial Intelligence Student & ML Engineering Intern (DUET / FlyRank AI)  
 **Date:** July 2026  
