@@ -5,7 +5,6 @@
 **Institution:** 3rd Year Artificial Intelligence Student, Dawood University of Engineering & Technology (DUET)  
 **Primary Research Lane:** Lane 2 — Refresh / Content Opportunity Scoring  
 **Deployed Research Paper:** [https://abdulhayykhan.github.io/FlyRank-AI/](https://abdulhayykhan.github.io/FlyRank-AI/)  
-**Personal Portfolio Website:** [https://abdulhayykhan-portfolio.vercel.app/](https://abdulhayykhan-portfolio.vercel.app/)  
 **GitHub Repository:** [https://github.com/abdulhayykhan/FlyRank-AI](https://github.com/abdulhayykhan/FlyRank-AI)  
 
 ---
