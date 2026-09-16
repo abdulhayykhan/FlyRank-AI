@@ -22,7 +22,6 @@ The capstone project formulates enterprise organic search decay as a binary clas
 ```text
 FlyRank AI/
 ├── README.md                                   # Root ML track overview & curriculum guide
-├── assets/                                     # Visual assets & Abdul_Hayy_Khan_Resume.pdf
 ├── data/                                       # Processed ML datasets & feature vectors
 ├── docs/                                       # Deployed GitHub Pages research paper web app
 ├── notebooks/                                  # Executed Jupyter Capstone notebooks (W01–W08)
@@ -93,7 +92,6 @@ FlyRank AI/
 
 - 🔬 **Deployed Research Paper**: [https://abdulhayykhan.github.io/FlyRank-AI/](https://abdulhayykhan.github.io/FlyRank-AI/)
 - 📦 **GitHub Repository**: [https://github.com/abdulhayykhan/FlyRank-AI](https://github.com/abdulhayykhan/FlyRank-AI)
-- 📄 **Direct Resume PDF**: [https://abdulhayykhan.github.io/FlyRank-AI/assets/Abdul_Hayy_Khan_Resume.pdf](https://abdulhayykhan.github.io/FlyRank-AI/assets/Abdul_Hayy_Khan_Resume.pdf)
 
 ---
 
