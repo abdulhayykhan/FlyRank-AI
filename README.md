@@ -1,124 +1,105 @@
-# 🚀 FlyRank AI Machine Learning Internship — Capstone Repository
+# FlyRank Machine Learning Engineering Internship — Capstone & Track Repository
 
-[![Live Paper](https://img.shields.io/badge/Live%20Paper-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://abdulhayykhan.github.io/FlyRank-AI/)
-[![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-orange?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/FlyRank/internship-warehouse)
-[![Data Source](https://img.shields.io/badge/Data%20Credit-FlyRank.ai-green?style=for-the-badge)](https://flyrank.ai)
-
-**Author:** Abdul Hayy Khan  
-**Track:** Machine Learning Internship (8-Week Foundations & Build Phase)  
-**Selected Lane:** **Lane 2 — Refresh / Content Opportunity Scoring**  
+**Intern:** Abdul Hayy Khan  
+**Role / Track:** Machine Learning Engineering Intern (Machine Learning Track — Code: ML)  
+**Institution:** 3rd Year Artificial Intelligence Student, Dawood University of Engineering & Technology (DUET)  
+**Primary Research Lane:** Lane 2 — Refresh / Content Opportunity Scoring  
 **Deployed Research Paper:** [https://abdulhayykhan.github.io/FlyRank-AI/](https://abdulhayykhan.github.io/FlyRank-AI/)  
+**Personal Portfolio Website:** [https://abdulhayykhan-portfolio.vercel.app/](https://abdulhayykhan-portfolio.vercel.app/)  
+**GitHub Repository:** [https://github.com/abdulhayykhan/FlyRank-AI](https://github.com/abdulhayykhan/FlyRank-AI)  
 
 ---
 
-## 📌 Executive Summary
+## 🔬 Executive Overview
 
-This repository contains the complete 8-week capstone research and engineering codebase for the **FlyRank AI Machine Learning Internship**. 
+This repository contains the complete 8-week Machine Learning Engineering Track codebase, executed Jupyter Capstone notebooks, production evaluation scripts, and deployed research paper artifacts for the **FlyRank ML Engineering Internship**.
 
-Evaluating a 79-million-row production search intelligence warehouse slice (30,000 pseudonymized enterprise content items), we formulate a machine learning priority scoring framework to identify and rank organic search traffic decay before major traffic loss occurs.
-
-### Headline Results:
-- **Client-Grouped Holdout Validation (`GroupShuffleSplit` on `client_id`):** Tested across unseen enterprise client domains to prevent domain data leakage.
-- **Model vs Baseline Performance:**
-  - *Week 4 Heuristic Baseline Rule:* Precision@50 = **0.340** | ROC-AUC = **0.627**
-  - *Random Forest Classifier (n=100):* Precision@50 = **0.740** | ROC-AUC = **0.750**
-- **Empirical Lift:** Achieved an **observed 0.740 Precision@50** (a **2.18x directional lift** over the heuristic baseline).
+The capstone project formulates enterprise organic search decay as a binary classification and priority ranking problem. Using a 79M+ search performance dataset slice (30,000 pseudonymized URLs across enterprise client domains), we built a Random Forest scoring engine evaluated with strict `GroupShuffleSplit` on `client_id` to eliminate domain data leakage. The resulting model achieves **0.740 Precision@50 (a 2.18x lift over the 0.340 naive baseline)** and generates automated weekly refresh recommendations with human-in-the-loop editorial boundaries.
 
 ---
 
-## 📂 Repository Architecture & Weekly Deliverables
+## 📂 Repository Directory Tree (Machine Learning Track)
 
 ```text
-FlyRank-AI/
-├── docs/                                 # GitHub Pages Root (Live Web Paper)
-│   └── index.html                        # Published Research Paper Website
-├── submission/
-│   └── paper_url.txt                     # Deployed URL Record File
+FlyRank AI/
+├── README.md                                   # Root ML track overview & curriculum guide
+├── Portfolio/                                  # Next.js 15 portfolio website (Vercel deployment)
+├── assets/                                     # Visual assets & Abdul_Hayy_Khan_Resume.pdf
+├── data/                                       # Processed ML datasets & feature vectors
+├── docs/                                       # Deployed GitHub Pages research paper web app
+├── notebooks/                                  # Executed Jupyter Capstone notebooks (W01–W08)
+├── outputs/                                    # Model metrics JSON, refresh queues & PDF reports
+├── scripts/                                    # Modular Python ML data pipeline & model scripts
+├── skills/                                     # Agent skills for ML engineering workflows
+├── submission/                                 # Official submission record (paper_url.txt)
 ├── week 1/
-│   ├── 1. Run the Starter Notebooks/    # Week 1 Assignment 1 (01 & 02 Notebooks + Reports)
-│   ├── 2. Research Question and Lane/   # Week 1 Assignment 2 (w01_research_question.ipynb)
-│   ├── 3. AI Workflow Audit & Tool Setup/ # Week 1 Assignment 3 / FL-01 (Workflow Audit Report)
-│   ├── 4. Draw the Path Portfolio Sitemap/ # Week 1 Assignment 4 / FL-02 (Portfolio Sitemap & AI Tutor)
-│   └── 5. What Are You Proving/         # Week 1 Assignment 5 / FL-03 (Proof Statement & AI Audit)
+│   ├── 1. Run the Starter Notebooks/           # Environment setup & baseline discovery
+│   └── 2. Research Question and Provisional Lane/ # W01 Research Question (Lane 2 Lock)
 ├── week 2/
-│   ├── 1. Frame Your Lane as ML Task/   # Week 2 Assignment 1 (w02_ml_task_framing.ipynb)
-│   ├── 2. VIDEO ML Intro Workshop/       # Week 2 Assignment 2 (ML Systems Summary & Learnings)
-│   ├── 3. Frame It as Cases/             # Week 2 Assignment 3 / FL-04 (Voice Card & 3 Beats Case)
-│   ├── 4. The Prompt Ladder/             # Week 2 Assignment 4 (6-Step Prompt Engineering Audit)
-│   └── 5. Prompting Fundamentals v2/     # Week 2 Assignment 5 / FL-02 (5-Technique Prompting Audit)
+│   ├── 1. Frame Your Lane as an ML Task/       # W02 Task framing, target label & loss function
+│   ├── 2. VIDEO Machine Learning/              # ML systems architecture notes
+│   ├── 3. Frame It as Cases/                   # ML case study framing
+│   └── 4. The Prompt Ladder/                   # Prompt engineering for ML pipelines
 ├── week 3/
-│   ├── 1. Search Intelligence Contract/ # Week 3 Assignment 1 (w03_data_contract.ipynb)
-│   ├── 2. Decide Once: Identity Kit/    # Week 3 Assignment 2 (Typography, Hex Palette & Logo Kit)
-│   ├── 3. Kill Your Darlings: Images/   # Week 3 Assignment 3 (Image Inventory & Rejection Audit)
-│   ├── 4. Map Content & CTAs/           # Week 3 Assignment 4 (One-Line Claim & CTA Conversion Ladder)
-│   └── 5. Consistency Not Talent/      # Week 3 Assignment 5 (Framing Principle, Visual Tokens & AI Judgment)
+│   └── 1. Search Intelligence Data Contract/   # W03 Data contract, features & GroupShuffleSplit
 ├── week 4/
-│   ├── 1. Baseline Action Score & Audit/ # Week 4 Assignment 1 (w04_baseline_score.ipynb)
-│   ├── 2. Empty but Live: Blank Page/   # Week 4 Assignment 2 (GitHub Pages Deployment & Verification)
-│   ├── 3. Three Roads: Choose Stack/    # Week 4 Assignment 3 (Stack Trade-off Audit & Rationale)
-│   ├── 4. Automation Workflow v2/       # Week 4 Assignment 4 / FL-04 (4-Step Research Pipeline & 5 Runs)
-│   └── 5. Agent Concepts & MCP Basics/  # Week 4 Assignment 5 / FL-05 (Workflow vs Agent & MCP Tools)
+│   └── 1. Baseline Action Score and Top-10 Review/ # W04 Naive baseline rule evaluation (P@50 = 0.340)
 ├── week 5/
-│   └── 1. Capstone Modeling Lane/       # Week 5 Assignment 1 (w05_model.ipynb)
+│   └── 1. Capstone Modeling Lane/              # W05 Random Forest model training & hyperparameter tuning
 ├── week 6/
-│   └── 1. Validation & Claim Audit/     # Week 6 Assignment 1 (w06_validation_audit.ipynb)
+│   └── 1. Validation and Research Claim Audit/ # W06 Zero-leakage audit & claim verification
 ├── week 7/
-│   └── 1. Content Action Playbook/       # Week 7 Assignment 1 (w07_action_playbook.ipynb)
+│   └── 1. Content Action Playbook/             # W07 Content action engine & No-Go policies
 ├── week 8/
-│   └── 1. Ship the Paper/                # Week 8 Assignment 1 (capstone.ipynb)
-└── work/
-    ├── figures/                          # Reusable Paper Figures (Precision@K, Feature Importances)
-    ├── notebooks/                        # Primary Executed Jupyter Notebooks
-    └── outputs/                          # Metrics Receipts (model_metrics.json, action queues)
+│   ├── 1. Ship the Paper/                      # W08 Capstone paper & notebook finalization
+│   └── 2. Tell the Story/                      # ML-12 Showcase demo outline & shareable cuts
+└── work/                                       # Model figures, outputs, notebooks & storytelling
 ```
 
 ---
 
-## 🗺️ Weekly Curriculum & Roadmap Overview
+## 📊 Machine Learning Curriculum & Milestone Matrix
 
-| Week | Assignment Title | Key Deliverables & Summary |
+| Week & Code | Module / Assignment Title | Technical Deliverable & Milestone Summary |
 |---|---|---|
-| **Week 1** | **Starter Notebooks & Research Question** | Executed discovery & decision tree notebooks; established Lane 2 framing backed by 3 dataset metrics. |
-| **Week 2** | **ML Task Formulation & Systems Map** | Mapped Lane 2 as Binary Classification + Priority Ranking ($P(\text{decline}=1)$ sorted for Precision@50). Summarized video workshop. |
-| **Week 3** | **Search Intelligence Data Contract** | Formulated 5 plain-words contract answers, executed 3 fact queries, built 5-feature frame, and ran deliberate leakage trap (`trend_pct`). |
-| **Week 4** | **Baseline Action Score & Top-10 Audit** | Audited staleness and position signals (CONFIRMED), built transparent heuristic baseline rule, and executed top-10 skeptic risk audit. |
-| **Week 5** | **Capstone Modeling Lane** | Trained Logistic Regression, Decision Tree, and Random Forest models on `GroupShuffleSplit` client holdouts (Random Forest Precision@50 = **0.740**). |
-| **Week 6** | **Validation & Research Claim Audit** | Audited research paper findings, compared Random vs Grouped split gap (+8.0% overestimation), ran 9-point leakage checklist, and rewrote claims. |
-| **Week 7** | **Content Action Playbook** | Built Archetype $\rightarrow$ Action matrix, defined human review rules and strict 🛑 No-Go automation list, exported metric JSON receipts and paper charts. |
-| **Week 8** | **Ship the Paper & Deploy** | Assembled 9-section research paper, executed `capstone.ipynb`, deployed live to GitHub Pages, and recorded URL in `submission/paper_url.txt`. |
+| **Week 1 (W01)** | **Starter Notebooks & Research Question** | Locked Lane 2 (Refresh Scoring); aggregated 79M+ search records across 30k client URLs. |
+| **Week 2 (W02)** | **Frame Your Lane as an ML Task** | Defined binary decay target label (`is_decaying`), evaluation metrics (Precision@K, AUCPR), and loss function. |
+| **Week 3 (W03)** | **Search Intelligence Data Contract** | Engineered zero-shot features and designed `GroupShuffleSplit` on `client_id` for zero-leakage validation. |
+| **Week 4 (W04)** | **Baseline Action Score & Review** | Evaluated naive threshold rules (e.g. `days_stale > 180`), establishing baseline **0.340 Precision@50**. |
+| **Week 5 (W05)** | **Capstone Modeling Lane** | Trained Random Forest classifier, achieving **0.740 Precision@50 (2.18x lift over baseline)**. |
+| **Week 6 (W06)** | **Validation & Research Claim Audit** | Audited feature importance and verified zero domain leakage across unseen client test splits. |
+| **Week 7 (W07)** | **Content Action Playbook** | Built automated top-50 weekly refresh queue with reason codes and strict No-Go editorial policies. |
+| **Week 8 (W08)** | **Ship the Paper & Tell the Story (ML-12)** | Deployed public research paper web app at GitHub Pages and authored 5-minute showcase demo script. |
+| **ML-CAP-01** | **Final Capstone Submission** | Completed 9-section research paper, verified `submission/paper_url.txt`, and finalized repo. |
 
 ---
 
-## ⚙️ Reproducibility & Local Execution
+## 🏆 Key Empirical Benchmark Results
 
-To reproduce the analysis, models, and paper artifacts locally:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/abdulhayykhan/FlyRank-AI.git
-   cd FlyRank-AI
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run notebooks:**
-   Execute notebooks sequentially under `work/notebooks/`:
-   ```bash
-   jupyter lab work/notebooks/capstone.ipynb
-   ```
+```text
++---------------------------------------------------------------------------------------+
+| MODEL VS. BASELINE PERFORMANCE (GroupShuffleSplit Holdout Test Set)                  |
+|                                                                                       |
+|  Metric                     Naive Baseline Rule     Random Forest Model   Precision Lift |
+|  -----------------------------------------------------------------------------------  |
+|  Precision@10               0.400                   0.800                 2.00x Lift      |
+|  Precision@25               0.360                   0.760                 2.11x Lift      |
+|  Precision@50 (Primary)     0.340                   0.740                 2.18x Lift      |
+|  Data Leakage Rate          0.0%                    0.0%                  Zero-Leakage    |
++---------------------------------------------------------------------------------------+
+```
 
 ---
 
-## 🤝 Acknowledgments & Data Credit
+## 🌐 Submission Links
 
-Built on the **[FlyRank](https://flyrank.ai)** ML Internship dataset. Special thanks to the FlyRank AI team and instructors for providing access to production search intelligence datasets and guidance throughout the capstone lifecycle.
-| **Week 3 (AI Fluency)** | **Kill Your Darlings: Curate Your Images** | Curated image inventory (real Matplotlib captures vs AI generation matrix); documented rejection of glossy AI dashboards. |
-| **Week 5 (AI Fluency)** | **Ship the Ugly One** | Published fully assembled live site; captured feedback from Senior ML Engineer & audited code architecture. |
-| **Week 5 (FL-06)** | **Design Your Personal Agent** | Authored agent spec for FlyRank Search Scout Agent; defined tool access plan, 5 pre-build evals & guardrails. |
-| **Week 5 (FL-07)** | **Build the Agent** | Implemented MVP FlyRank Search Scout Agent with 5 live Python MCP tools; recorded build log & trace log. |
-| **Week 3 (AI Fluency)** | **Consistency, Not Talent (and Frame, Not Upstage)** | Documented portfolio framing rule; locked visual tokens & audited AI image curation discernment. |
-| **Week 5 (AI Fluency)** | **Explain It Like You Built It** | Plain-words explanation of client-side Priority Calculator engine (sliders, sigmoid math, DOM updates). |
-| **Week 5 (PF-04)** | **Personal Website Live on FlyRank Domain** | Published HTTPS site on Netlify/GitHub; authored plain-English DNS resolution walkthrough. |
+- 🔬 **Deployed Research Paper**: [https://abdulhayykhan.github.io/FlyRank-AI/](https://abdulhayykhan.github.io/FlyRank-AI/)
+- 💻 **Portfolio Website**: [https://abdulhayykhan-portfolio.vercel.app/](https://abdulhayykhan-portfolio.vercel.app/)
+- 📦 **GitHub Repository**: [https://github.com/abdulhayykhan/FlyRank-AI](https://github.com/abdulhayykhan/FlyRank-AI)
+- 📄 **Direct Resume PDF**: [https://abdulhayykhan.github.io/FlyRank-AI/assets/Abdul_Hayy_Khan_Resume.pdf](https://abdulhayykhan.github.io/FlyRank-AI/assets/Abdul_Hayy_Khan_Resume.pdf)
+
+---
+
+## 📄 Acknowledgments & Data Credit
+
+Built on the **[FlyRank](https://flyrank.ai)** ML Internship dataset.
